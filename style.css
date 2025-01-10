@@ -34,8 +34,9 @@ li, h2{
     color: #F9F8FF;
 }
 
-.haut_de_page, .bas_de_page{
+header, footer{
     background-color: white;
+    padding: 20px 50px 20px 50px;
 }
 
 .lien-icone:hover{
@@ -56,7 +57,25 @@ li, h2{
     text-decoration: none;
 }
 
-.skill{
+.carre-contenu{
     border-right: 1px #8e86b5 solid;
     border-bottom: 1px #8e86b5 solid;
+    padding: 50px;
+}
+
+* {
+    margin: 0;
+}
+
+section{
+    padding: 80px;
+}
+
+main .a-propos{
+    margin: auto;
+}
+
+.espace{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
